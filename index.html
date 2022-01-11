@@ -5,29 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercado chido</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
     <header class="header">
         <div class="header__top">
-            <a href=""><img src="" alt="Logo"></a>
+            <section>
+                <figure>
+                    <a href=""><img src="assets/logo.png" alt="Logo" class="logo"></a>
+                </figure>
+            </section>
             <form class="header__search">
-                <input type="text">
-                <button><ion-icon name="search-outline"></ion-icon></button>
+                <input type="text" placeholder="Buscar productos, marcas y más...">
+                <button class="header__search_button"><ion-icon name="search-outline"></ion-icon></button>
             </form>
-            <a href=""><img src="" alt="Disney"></a>
+            <a href=""><img src="assets/disney.png" alt="Disney" class="disney"></a>
         </div>
         <div class="header__bottom">
             <div class="header__menu">
                 <a href="">
                     <a href=""><ion-icon name="location-outline"></ion-icon></a>
-                    <span>Ingresa tu código postal</span>
+                    <div>
+                        <span>Ingresa tu</span>
+                        <span>código postal</span>
+                    </div>
                 </a>
             </div>
-            <nav class="header__menu_list">
-                <a href="" class="header__menu_item">Categorias</a>
+            <nav class="header__menu_list" id="nav__categories">
+                <a href="" class="header__menu_item">Categorías</a>
                 <a href="" class="header__menu_item">Ofertas</a>
                 <a href="" class="header__menu_item">Historial</a>
                 <a href="" class="header__menu_item">Supermercado</a>
@@ -44,30 +50,7 @@
     </header>
     
     <main>
-        <img src="" alt="banner">
-        <div>
-            <div>
-                <img src="" alt="tarj">
-                <div>Paga en hasta 12 MSI</div>
-                <a href="">Ver más</a>
-            </div>
-            <div>
-                <img src="" alt="tarj deb">
-                <div>tarjeta de débito</div>
-                <a href="">Ver más</a>
-            </div>
-            <div>
-                <img src="" alt="Mano moneda">
-                <div>Meses sin tarjeta</div>
-                <a href="">Conoce Mercado Crédito</a>
-            </div>
-            <div>
-                <img src="" alt="más">
-            </div>
-        </div>
-        <section>
-            <div></div>
-        </section>
+        
     </main>
     
     <footer>
