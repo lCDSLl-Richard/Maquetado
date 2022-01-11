@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -13,5 +14,17 @@ html {
 .header{
     background-color: rgb(255, 241, 89);
     height: 10rem;
-    width: 100%;
+    width: 100vw;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header__search input{
+    width: 30rem;
+}
+
+.header__menu_item{
+    margin: 0 1rem;
 }
